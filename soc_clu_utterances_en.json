@@ -1,0 +1,177 @@
+[
+  {
+    "text": "User reported an email claiming Microsoft 365 password expiry with a suspicious login link",
+    "language": "en",
+    "dataset": "Train",
+    "intent": "phishing",
+    "entities": []
+  },
+  {
+    "text": "Email from a spoofed HR address asked the employee to verify credentials urgently",
+    "language": "en",
+    "dataset": "Train",
+    "intent": "phishing",
+    "entities": []
+  },
+  {
+    "text": "Suspicious attachment named invoice.zip was delivered from an unknown external sender",
+    "language": "en",
+    "dataset": "Train",
+    "intent": "phishing",
+    "entities": []
+  },
+  {
+    "text": "Message contained a fake payroll update link and requested immediate account sign in",
+    "language": "en",
+    "dataset": "Train",
+    "intent": "phishing",
+    "entities": []
+  },
+  {
+    "text": "Multiple failed login attempts were detected against the Administrator account from one external IP",
+    "language": "en",
+    "dataset": "Train",
+    "intent": "brute_force",
+    "entities": []
+  },
+  {
+    "text": "Repeated authentication failures targeted several usernames within a short time window",
+    "language": "en",
+    "dataset": "Train",
+    "intent": "brute_force",
+    "entities": []
+  },
+  {
+    "text": "Password spraying activity was observed against employee VPN accounts",
+    "language": "en",
+    "dataset": "Train",
+    "intent": "brute_force",
+    "entities": []
+  },
+  {
+    "text": "Numerous unsuccessful sign in attempts were followed by one successful login from the same source",
+    "language": "en",
+    "dataset": "Train",
+    "intent": "brute_force",
+    "entities": []
+  },
+  {
+    "text": "PowerShell executed an encoded command shortly after a Word document was opened",
+    "language": "en",
+    "dataset": "Train",
+    "intent": "malware",
+    "entities": []
+  },
+  {
+    "text": "Suspicious executable launched from the Downloads folder and spawned child processes",
+    "language": "en",
+    "dataset": "Train",
+    "intent": "malware",
+    "entities": []
+  },
+  {
+    "text": "A macro enabled Office file triggered script execution and network connections to an external host",
+    "language": "en",
+    "dataset": "Train",
+    "intent": "malware",
+    "entities": []
+  },
+  {
+    "text": "Endpoint telemetry showed unauthorized binary execution followed by persistence related activity",
+    "language": "en",
+    "dataset": "Train",
+    "intent": "malware",
+    "entities": []
+  },
+  {
+    "text": "One source IP scanned multiple internal hosts across common service ports",
+    "language": "en",
+    "dataset": "Train",
+    "intent": "reconnaissance",
+    "entities": []
+  },
+  {
+    "text": "Sequential connection attempts were made against several systems to identify open services",
+    "language": "en",
+    "dataset": "Train",
+    "intent": "reconnaissance",
+    "entities": []
+  },
+  {
+    "text": "Network logs showed unusual port enumeration activity from a single device",
+    "language": "en",
+    "dataset": "Train",
+    "intent": "reconnaissance",
+    "entities": []
+  },
+  {
+    "text": "Host discovery traffic was observed across a large subnet in a short period",
+    "language": "en",
+    "dataset": "Train",
+    "intent": "reconnaissance",
+    "entities": []
+  },
+  {
+    "text": "Approved vulnerability scanner performed routine checks across internal servers",
+    "language": "en",
+    "dataset": "Train",
+    "intent": "benign",
+    "entities": []
+  },
+  {
+    "text": "Help desk technician reset a user password during a scheduled support session",
+    "language": "en",
+    "dataset": "Train",
+    "intent": "benign",
+    "entities": []
+  },
+  {
+    "text": "Internal IT team ran a planned network inventory scan during the maintenance window",
+    "language": "en",
+    "dataset": "Train",
+    "intent": "benign",
+    "entities": []
+  },
+  {
+    "text": "Employee successfully logged in from the usual office location during business hours",
+    "language": "en",
+    "dataset": "Train",
+    "intent": "benign",
+    "entities": []
+  },
+  {
+    "text": "Email pretending to be the finance team requested urgent credential confirmation through an external link",
+    "language": "en",
+    "dataset": "Test",
+    "intent": "phishing",
+    "entities": []
+  },
+  {
+    "text": "High volume of failed remote logins targeted one privileged account before access succeeded",
+    "language": "en",
+    "dataset": "Test",
+    "intent": "brute_force",
+    "entities": []
+  },
+  {
+    "text": "Script interpreter activity was launched by a document file and contacted a suspicious domain",
+    "language": "en",
+    "dataset": "Test",
+    "intent": "malware",
+    "entities": []
+  },
+  {
+    "text": "Firewall logs revealed rapid probing of multiple ports across several hosts from the same source",
+    "language": "en",
+    "dataset": "Test",
+    "intent": "reconnaissance",
+    "entities": []
+  },
+  {
+    "text": "Authorized administrator accessed servers during the approved maintenance period without suspicious follow on activity",
+    "language": "en",
+    "dataset": "Test",
+    "intent": "benign",
+    "entities": []
+  }
+]
