@@ -59,7 +59,7 @@ The model was trained on five SOC-relevant intents:
 ### 1. Created Azure Resource Group
 I started in the **Azure Portal** by creating a dedicated **Resource Group** for the project. This helped keep all project resources organized in one place.
 
-![Step 1 - Azure Resource Group](screenshots/01-resource-group.png)
+![Step 1 - Azure Resource Group](screenshots/azure resource group.png)
 
 ### 2. Created Azure AI / Microsoft Foundry Resource
 After creating the resource group, I created the **Microsoft Foundry / Azure AI Foundry** resource that would be used to build the language understanding project.
