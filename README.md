@@ -59,12 +59,12 @@ The model was trained on five SOC-relevant intents:
 ### 1. Created Azure Resource Group
 I started in the **Azure Portal** by creating a dedicated **Resource Group** for the project. This helped keep all project resources organized in one place.
 
-![Step 1 - Azure Resource Group](screenshots/azure resource group.png)
+![Step 1 - Azure Resource Group](screenshots/azure-resource-group.png)
 
 ### 2. Created Azure AI / Microsoft Foundry Resource
 After creating the resource group, I created the **Microsoft Foundry / Azure AI Foundry** resource that would be used to build the language understanding project.
 
-![Step 2 - Azure AI Foundry Resource](screenshots/02-foundry-resource.png)
+![Step 2 - Azure AI Foundry Resource](screenshots/azure-ai-foundry-resource.png)
 
 ### 3. Opened Azure AI Foundry and Created the Project
 Inside Azure AI Foundry, I created a new project for the classifier.
@@ -74,7 +74,7 @@ Inside Azure AI Foundry, I created a new project for the classifier.
 
 This project was designed specifically for **security alert classification**.
 
-![Step 3 - Create Project](screenshots/03-create-project.png)
+![Step 3 - Create Project](screenshots/language-playground.png)
 
 ### 4. Defined the Schema (Intents)
 In the **Define schema** section, I created five intents that represent common SOC triage categories:
@@ -87,7 +87,7 @@ In the **Define schema** section, I created five intents that represent common S
 
 These intents are the labels the model uses when classifying input text.
 
-![Step 4 - Define Schema](screenshots/04-define-schema.png)
+![Step 4 - Define Schema](screenshots/defining-schema.png)
 
 ### 5. Prepared the Utterance Dataset
 I created a labeled JSON utterance file containing training and testing examples for each intent.
@@ -108,7 +108,8 @@ For transparency and reproducibility, I included the utterance files in this rep
 ### 6. Uploaded Utterance File in Manage Data
 In the **Manage data** section, I uploaded the JSON utterance file to Azure AI Foundry so the project could use it for training and testing.
 
-![Step 5 - Upload Utterance File](screenshots/05-upload-utterances.png)
+![Step 5 - Upload Utterance File](screenshots/utterance-files-JSON.png)
+![Manage Data](screenshots/Manage-data.png)
 
 ### 7. Trained the Model
 In the **Train model** section, I created a new training model with the following setup:
@@ -118,14 +119,14 @@ In the **Train model** section, I created a new training model with the followin
 
 The model was then trained using the labeled SOC alert dataset.
 
-![Step 6 - Train Model](screenshots/06-train-model.png)
+![Step 6 - Train Model](screenshots/training-model.png)
 
 ### 8. Evaluated the Model
 After training completed, I evaluated the model to confirm that it had learned the distinction between the five alert categories.
 
 The evaluation focused on whether the model could correctly classify different SOC-style alert descriptions.
 
-![Step 7 - Evaluate Model](screenshots/07-evaluate-model.png)
+![Step 7 - Evaluate Model](screenshots/evaluate-model.png)
 
 ### 9. Deployed the Trained Model
 Once training was complete, I deployed the model so it could be tested live.
@@ -133,7 +134,7 @@ Once training was complete, I deployed the model so it could be tested live.
 - **Deployment name:** `soc-alert-triage-deployment`
 - **Assigned model:** `soc-alert-triage-v1`
 
-![Step 8 - Deploy Model](screenshots/08-deploy-model.png)
+![Step 8 - Deploy Model](screenshots/deploying-model.png)
 
 ### 10. Tested the Live Deployment
 After deployment, I tested the model in the Foundry interface with live alert descriptions.
@@ -147,11 +148,11 @@ Examples used during testing included:
 
 The model successfully predicted all five categories during manual testing.
 
-![Step 9 - Phishing Test](screenshots/09-test-phishing.png)
-![Step 10 - Brute Force Test](screenshots/10-test-bruteforce.png)
-![Step 11 - Malware Test](screenshots/11-test-malware.png)
-![Step 12 - Reconnaissance Test](screenshots/12-test-reconnaissance.png)
-![Step 13 - Benign Test](screenshots/13-test-benign.png)
+![Step 9 - Phishing Test](screenshots/phishing-test.png)
+![Step 10 - Brute Force Test](screenshots/bruteforce-test.png)
+![Step 11 - Malware Test](screenshots/malware-test.png)
+![Step 12 - Reconnaissance Test](screenshots/recon-test.png)
+![Step 13 - Benign Test](screenshots/benign-test.png)
 
 ---
 
