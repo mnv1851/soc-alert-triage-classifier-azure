@@ -101,9 +101,10 @@ The dataset included examples such as:
 
 For transparency and reproducibility, I included the utterance files in this repository.
 
-**Dataset files:**
-- ![Manage Data](data/soc_clu_utterances.json)
-- ![Manage Data](data/soc_clu_utterances_en.json)
+## Dataset Files
+
+- [soc_clu_utterances.json](data/soc_clu_utterances.json)
+- [soc_clu_utterances_en.json](data/soc_clu_utterances_en.json)
 
 ### 6. Uploaded Utterance File in Manage Data
 In the **Manage data** section, I uploaded the JSON utterance file to Azure AI Foundry so the project could use it for training and testing.
